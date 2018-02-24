@@ -1,0 +1,81 @@
+<div class="jumbotron">
+<div class="container">
+   <nav><h2 class="header">ACADEMIC PROJECTS</h2></nav> 
+<div class="well well-sm" id="proHeading">
+    BAGGAGE MATE FINDER 
+</div>
+
+<div class="well well-lg" id="proContent">
+    <ul>
+      <li>Designed and developed a prototype of a website, which allows users (airline passengers) to post, check baggage space availability and communicate with respective co- passenger.</li>
+      <li>Designed the front-end interface for the application, main  tained database and handled database-server connectivity.    </li>
+     
+    </ul>
+</div>
+
+<div class="well well-sm" id="proHeading">
+        THE CATAWBA DATABASE 
+    </div>
+   
+    <div class="well well-lg" id="proContent">
+        <ul>
+          <li>Designed and developed a prototype of an e-commerce website, which allows user to donate and buy items, can add items to cart and checkout.</li>
+          <li>Website lists all the items with pictures and the users are differentiated with their respective roles – guests, donors, users and admin (given authorization to edit the items being posted on the website).</li>
+          <li>This site sells a donated clothes and accessories and provided a mechanism to check in the items which are being donated into the inventory.</li>
+        </ul>
+        <a href="https://github.com/skodem94/CatawbaDatabase" class="btn btn-primary">Visit Project</a>
+        
+    </div>
+   
+    <div class="well well-sm" id="proHeading">
+            A SYSTEM TO FILTER UNWANTED MESSAGES FROM SOCIAL NETWORKING SITE 
+        </div>
+   
+        <div class="well well-lg" id="proContent">
+        <ul>
+            <li>Designed and developed a prototype website system allowing Social Networking Site users to have a direct control on the messages posted on their walls using.</li>
+            <li>Involved in designing the front-end interface, maintained database and handled database connectivity.</li>
+        </ul>
+        </div> 
+        <div class="well well-sm" id="proHeading">
+            JavaScript File Parser  
+        </div>
+       
+        <div class="well well-lg" id="proContent">
+            <ul>
+              <li>Developed a command line program that accepts a command line argument, a name of the JavaScript file and is used for parsing the code to find and locate un-used declared variables, one line if/else statements that don’t have curly brackets, function calls that have not been declared, any missing/extra curly brackets.</li>
+              
+            </ul>
+            <a href="https://github.com/skodem94/JavaScript-File-Parser" class="btn btn-primary">Visit DashBoard</a>
+        </div> 
+        <div class="well well-sm" id="proHeading">
+                DAIMLER TRUCKS VISUALIZATION  
+            </div>
+           
+            <div class="well well-lg" id="proContent">
+                <ul>
+                  <li>Created a prototype of visualization for Daimler Trucks company and analyzed truck data and converted business requirements to technical requirements and integrated data using cross database in TABLEAU</li>
+                  <li>Designed and created effective visualizations using TABLEAU which shows the working of the plant and displays the details of the trucks being manufactured in the company</li>
+                </ul>
+                  <a href="https://github.com/skodem94/daimler-trucks-visualization-project" class="btn btn-primary">Visit DashBoard</a>
+               
+            </div> 
+            
+            
+            
+</div>            
+
+<div class="jumbotron">
+    <div class="container">
+        <nav><h2 class="header">Tableau projects</h2></nav>
+        <ul class="list-group col-md-3" *ngFor = "let image of image; index as k">
+                <li class="list-group-item heading2"> <img class="card-img-top" src="{{image}}" alt="Card image" style="width:100%"></li>
+            <span *ngFor = "let url of url; index as i">	
+          <li class="list-group-item" *ngIf = "k == i" > <a href="{{url}}" class="btn btn-primary">Visit DashBoard</a></li>
+        </span>
+        </ul>
+      
+      </div>
+    </div>
+                               
+</div>

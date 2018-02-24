@@ -1,0 +1,14 @@
+
+<div class="jumbotron">
+<div class="container">
+    <nav><h2 class="header">SKILLS</h2></nav>
+    <ul class="list-group col-md-3" *ngFor = "let skill of skills; index as i">
+			<li class="list-group-item heading2">{{skill.skill}}</li>
+		<span *ngFor = "let skill of skills; index as j">	
+      <li class="list-group-item" *ngIf = "i == j" >{{skill.desc}}</li>
+    </span>
+    </ul>
+  
+  </div>
+</div>
+

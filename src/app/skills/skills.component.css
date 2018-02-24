@@ -1,0 +1,161 @@
+ /*
+[
+    {"id": 1, "name": "agasthya", "age":30},
+    {"id": 2, "name": "varshini", "age":29},
+    {"id": 3, "name": "kitty", "age":1},
+    {"id": 4, "name": "pappu", "age":3}
+  ] 
+
+
+  {
+      "languages" : ["Java/J2EE", "JavaScript", "SQL", "D3.js", "Angular 2", "Angular 4", "Angular 5"],
+      "frontend" : ["Java/J2EE", "JavaScript", "SQL", "D3.js", "Angular 2", "Angular 4", "Angular 5"]   
+  }
+
+ <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Skills</div>
+    <div class="panel-body" *ngFor = "let skill of skills">
+      <p>{{skill.skill}}</p>
+    </div>
+  
+    <!-- List group -->
+    <ul class="list-group" *ngFor = "let skill of skills">
+      <li class="list-group-item">{{skill.desc}}</li>
+      
+    </ul>
+  </div>
+
+
+  <div class="jumbotron">
+ <div class="container">
+    <!-- Default panel contents -->
+    <h3 class="panel-heading">Skills</h3>
+      <div class="panel-body" *ngFor = "let skill of skills; index as i">
+        <p class="heading">{{skill.skill}}</p>
+          <ul class="list-group" *ngFor = "let skill of skills; index as j">
+            <li class="content" *ngIf = "i == j" >{{skill.desc}}</li>
+          </ul>
+    </div>
+  </div>
+</div>
+  */
+
+
+
+
+
+    /* 
+  {
+  "skills": [
+    {
+      "skill":"Programming Languages", 
+      "desc": [
+        {"name":"Java/J2EE"},
+        {"name": "JavaScript"},
+        {"name": "SQL"},
+        {"name": "D3.js"},
+        {"name": "Angular 2"},
+        {"name": "Angular 4"},
+        {"name": "Angular 5"}
+      ]
+    },
+
+    {
+      "skill":"Front End", 
+      "desc": [
+        {"name":"HTML5"}, 
+        {"name":"CSS3"},
+        {"name": "AJAX"},
+        {"name": "JSP"},
+        {"name": "jQuery"},
+        {"name": "Bootstrap 3"}
+      ]
+    },
+    {
+      "skill":"Web Service", 
+      "desc": [
+        {"name":"RESTful"},
+        {"name": "JSON"},
+        {"name": "XML"}
+      ]
+    },
+    {
+      "skill":"Database", 
+      "desc": [
+        {"name":"MySQL"}, 
+        {"name":"Microsoft SQL"}, 
+       {"name":"JDBC"}
+      ]
+    },
+    {
+      "skill":"Frame Works",
+       "desc": [
+         {"name":"Spring"}
+        ]
+    },
+    {
+      "skill":"Tools & Technologies", 
+      "desc": [
+        {"name":"GIT"}, 
+          {"name":"Agile"},
+            {"name": "Eclipse"}, 
+              {"name":"NPM Package"}, 
+                {"name":"TABLEAU"}
+      ]
+    }
+  ]
+}
+  
+  */
+
+  .list-group {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+  .heading2{
+  background-color: dimgray;
+  font-style: italic;
+  color: black;
+  border-style: inset;
+  background-color: #8a438ac4;
+  color: #130303;
+  box-shadow: -5px -1px 7px 2px black;   
+ 
+  padding: 10px;
+
+}
+
+.header{
+  text-align: center;
+  font-family: -webkit-pictograph;
+  /* font-style: oblique; */
+  font-size: 30px;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+nav{
+  background-color: #090a33d3;
+  /* text-decoration-style: double; */
+ 
+  color: white;
+  /* text-decoration-style: dashed; */
+  box-shadow: 2px -3px 10px 3px black;
+  padding-top: 0.1px;
+  padding-top: 0.px;
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.container{
+  max-width: 100%;
+  background-color: #899cd1b9;
+  border-radius: 40px;
+}

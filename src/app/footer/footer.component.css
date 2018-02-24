@@ -1,0 +1,25 @@
+.footer {
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    background-color: rgb(132, 190, 218);
+    color: rgb(7, 1, 1);
+  }
+  
+  .footer a {
+    color: rgb(12, 1, 1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);;
+  }
+  
+  .footer a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);;
+  }
+  
+  .footer p {
+    opacity: 0.75;
+    font-size: 16px;
+  }
+  
+  .footerCopyRight {
+    margin-top: 40px;
+  }
