@@ -1,0 +1,24 @@
+{
+    "projects": [
+    {
+      "name":"Daimler Truck Data Visualisation", 
+      "url": ["https://public.tableau.com/profile/sree.gouri.varshini.kodem#!/vizhome/DaimlerTruckVisualization/Dashboard1 "]
+    },
+    {
+        "name":"ANALYSIS OF GLOBAL TERRORISM DATABASE", 
+        "url": [" https://public.tableau.com/profile/sree.gouri.varshini.kodem#!/vizhome/GlobalTerrorismDatabase_3/Dashboard1 "]
+      },
+      {
+        "name":"VIDEO GAME SALES ANALYSIS ", 
+        "url": ["https://public.tableau.com/profile/sree.gouri.varshini.kodem#!/vizhome/VideoGameSalesAnalysis_1/Videogameanalysis "]
+      },
+      {
+        "name":"ROAD ACCIDENTS ANALYSIS ", 
+        "url": [" https://public.tableau.com/profile/sree.gouri.varshini.kodem#!/vizhome/RoadAccidents_6/Dashboard1 "]
+      },
+      {
+        "name":"FLIGHT DATA VISUALISATION ", 
+        "url": [" https://public.tableau.com/profile/sree.gouri.varshini.kodem#!/vizhome/FlightDelayVisualization_1/Dashboard1 "]
+      }
+ ]
+}

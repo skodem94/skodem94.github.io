@@ -1,0 +1,31 @@
+{
+  "skills": [
+    {
+      "skill":"Programming Languages", 
+      "desc": [" Java/J2EE", " JavaScript", " SQL", " D3.js", " Angular"]
+    },
+
+    {
+      "skill":"Front End", 
+      "desc": ["HTML5", " CSS3", " AJAX", " JSP", " jQuery"," Bootstrap 3"]
+    },
+    {
+      "skill":"Web Service", 
+      "desc": ["RESTful", " JSON", " XML"]
+    },
+    {
+      "skill":"Database", 
+      "desc": ["MySQL", " Microsoft SQL", " JDBC"]
+    },
+    {
+      "skill":"Frame Works",
+       "desc": ["Spring"]
+    },
+    {
+      "skill":"Tools & Technologies", 
+      "desc": ["GIT", " Agile", " Eclipse", " NPM Package", " TABLEAU"]
+    }
+  ]
+}
+  
+  
